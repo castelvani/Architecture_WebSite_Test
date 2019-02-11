@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/09/2018, 20:15:52
+    Author     : alunocmc
+*/
+
+.site-heading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family:inherit;
+}
+.text-white {
+    color: #000!important;
+}
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #dc2828;
+}
+#mainNav {
+    background-color: rgba(177, 113, 212, 0.9);
+}
+#mainNav {
+    background-color: #32383e;
+    font-family: Raleway;
+}
+
+.text-primary {
+    color: #002752!important;
+}
+.bg-faded {
+    background-color: #002752;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:serif;
+}
+
+.intro .intro-text {
+    left: 0;
+    width: 50%;
+    margin-top: 3rem;
+    position: absolute;
+}
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+.btn-sm{
+    background-color: #000;
+    border-color: #000;
+    
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color:  #15ff13;
+}
+
+.cta .cta-inner:before {
+    border-radius: .5rem;
+    content: '';
+    position: absolute;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid  #fff938;
+}
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: .5rem;
+    background-color:  rgba(14, 222, 203, 0.85);
+}
+
+body {
+  font-family: 'Lora';
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/fundoloja.jpeg");
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/fundoloja.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+    background-color:  #32383e;
+}
+.product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+    width:40%;
+}
+* {box-sizing: border-box}
+
+/* Campos de entrada - largura máxima */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Estilo para todos os botões */
+button {
+  background-color: #002752;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Definição extra para o botão Cancelar */
+.cancelarbtn {
+  padding: 14px 20px;
+  background-color: #f44336!important;
+  width:10%!important;
+
+}
+
+/* Larguras iguais para ambos botões  */
+.cancelarbtn, .criarbtn {
+
+  width: 100%;
+}
+
+/* Padding no container */
+.container {
+  padding: 16px;
+    
+}
+
+/* Limpar floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Função de responsividade para ambos botões */
+@media screen and (max-width: 300px) {
+  .cancelarbtn, .criarbtn {
+    width: 15%;
+  }
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+    background-color: #fff;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: .rem .rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    float: none;
+}
+.criarbtn {
+   width: 15% 
+     
+}

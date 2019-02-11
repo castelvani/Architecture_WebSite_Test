@@ -1,0 +1,1 @@
+PHP project created as a project for college, using phpMyAdmin as database
